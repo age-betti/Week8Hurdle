@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.27428.2037
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{00D1A9C2-B5F0-4AF3-8072-F6C62B433612}") = "Week8Hurdle", "Week8Hurdle\Week8Hurdle.sqlproj", "{D1CB31F1-00FF-48F8-8A33-2081E0857C15}"
+Project("{00D1A9C2-B5F0-4AF3-8072-F6C62B433612}") = "Week8Hurdle", "Week8Hurdle\Week8Hurdle.sqlproj", "{3924C28F-B0EF-45CF-B6F3-B8B33B7F5061}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -11,17 +11,17 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{D1CB31F1-00FF-48F8-8A33-2081E0857C15}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{D1CB31F1-00FF-48F8-8A33-2081E0857C15}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{D1CB31F1-00FF-48F8-8A33-2081E0857C15}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
-		{D1CB31F1-00FF-48F8-8A33-2081E0857C15}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{D1CB31F1-00FF-48F8-8A33-2081E0857C15}.Release|Any CPU.Build.0 = Release|Any CPU
-		{D1CB31F1-00FF-48F8-8A33-2081E0857C15}.Release|Any CPU.Deploy.0 = Release|Any CPU
+		{3924C28F-B0EF-45CF-B6F3-B8B33B7F5061}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3924C28F-B0EF-45CF-B6F3-B8B33B7F5061}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3924C28F-B0EF-45CF-B6F3-B8B33B7F5061}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{3924C28F-B0EF-45CF-B6F3-B8B33B7F5061}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3924C28F-B0EF-45CF-B6F3-B8B33B7F5061}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3924C28F-B0EF-45CF-B6F3-B8B33B7F5061}.Release|Any CPU.Deploy.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
-		SolutionGuid = {EAE3FA51-6F60-4F35-B95B-4CD630C5E5CE}
+		SolutionGuid = {57B775CF-248F-4DA6-A49F-136B48974BBE}
 	EndGlobalSection
 EndGlobal
