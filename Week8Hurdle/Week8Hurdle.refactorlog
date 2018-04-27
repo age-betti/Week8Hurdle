@@ -56,4 +56,18 @@
     <Property Name="ParentElementType" Value="SqlTable" />
     <Property Name="NewName" Value="studentId" />
   </Operation>
+  <Operation Name="Rename Refactor" Key="0f8fe9b8-cef7-40bc-bbeb-d61e1b0e9c56" ChangeDateTime="04/27/2018 00:47:40">
+    <Property Name="ElementName" Value="[dbo].[FK_Book_AuthorID]" />
+    <Property Name="ElementType" Value="SqlForeignKeyConstraint" />
+    <Property Name="ParentElementName" Value="[dbo].[Book]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="[FK_Book_Author]" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="ad095ba5-79cf-4707-9aad-7f3be1275e7f" ChangeDateTime="04/27/2018 00:49:18">
+    <Property Name="ElementName" Value="[dbo].[Book].[Year]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[Book]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="yearPublished" />
+  </Operation>
 </Operations>
