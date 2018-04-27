@@ -28,11 +28,6 @@ INSERT INTO Student (studentId, stuFName, stuLName) VALUES
 ('111111111', 'Olivia', 'Vun'),
 ('222222222', 'LeStrade', 'Doggo');
 
-INSERT INTO Book (isbnId, Title, yearPublished) VALUES
-('1234567890', 'Dog', '1994'),
-('2345678901', 'Dog; Part 2', '1998'),
-('3456789012', 'Cat', '1997'),
-('4567890123', 'Blah', '1991');
 
 INSERT INTO Author (authorId, autFName, autLname, autTFNum) VALUES
 ('0987654321', 'Dave', 'Davidson', '123456789'),
@@ -40,5 +35,10 @@ INSERT INTO Author (authorId, autFName, autLname, autTFNum) VALUES
 ('8765432109', 'Bill', 'Billbur', '345678912'),
 ('7654321098', 'Barry', 'Barriton', '456789123');
 
+INSERT INTO Book (isbnId, Title, yearPublished, authorId) VALUES
+('1234567890', 'Dog', '1994', '0987654321'),
+('2345678901', 'Dog; Part 2', '1998', '9876543210'),
+('3456789012', 'Cat', '1997', '8765432109'),
+('4567890123', 'Blah', '1991', '765432198');
 
 END
