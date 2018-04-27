@@ -59,4 +59,12 @@
     <Folder Include="Properties" />
     <Folder Include="Tables" />
   </ItemGroup>
+  <ItemGroup>
+    <Build Include="Tables\Student.sql" />
+    <Build Include="Tables\Book.sql" />
+    <Build Include="Tables\Author.sql" />
+  </ItemGroup>
+  <ItemGroup>
+    <RefactorLog Include="Week8Hurdle.refactorlog" />
+  </ItemGroup>
 </Project>
