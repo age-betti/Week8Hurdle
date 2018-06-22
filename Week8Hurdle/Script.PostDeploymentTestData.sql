@@ -22,23 +22,21 @@ DELETE FROM Author;
 
 -- Builds new data
 
-INSERT INTO Student (studentId, stuFName, stuLName) VALUES
-('101644658', 'Adrian', 'Phillips'),
-('000000001', 'Blah', 'Blah'),
-('111111111', 'Olivia', 'Vun'),
-('222222222', 'LeStrade', 'Doggo');
+INSERT INTO Student (studentId, stuFName, stuLName, emailAddress, mobNum) VALUES
+('s12345678', 'Fred', 'Flintstone', '12345678@student.swin.edu.au', '0400 555 111'),
+('s23456789', 'Barney', 'Rubble', '23456789@student.swin.edu.au', '0400 555 222'),
+('s34567890', 'Bam-Bam', 'Rubble', '34567890@student.swin.edu.au', '0400 555 333');
 
 
 INSERT INTO Author (authorId, autFName, autLname, autTFNum) VALUES
-('0987654321', 'Dave', 'Davidson', '123456789'),
-('9876543210', 'Steve', 'Stephenson', '234567891'),
-('8765432109', 'Bill', 'Billbur', '345678912'),
-('7654321098', 'Barry', 'Barriton', '456789123');
+('32567', 'Edgar', 'Codd', '150111222'),
+('76543', 'Vinton', 'Cerf', '150222333'),
+('12345', 'Alan', 'Turing', '150333444');
 
-INSERT INTO Book (isbnId, Title, yearPublished, authorId) VALUES
-('1234567890', 'Dog', '1994', '0987654321'),
-('2345678901', 'Dog; Part 2', '1998', '9876543210'),
-('3456789012', 'Cat', '1997', '8765432109'),
-('4567890123', 'Blah', '1991', '765432198');
+INSERT INTO Book (isbnId, authorId, autFName, autLName, autTFNum, Title, yearPublished, studentId) VALUES
+('978-3-16-148410-0','32567', 'Edgar', 'Codd', '150111222', 'Relationships with Databases, the ins and outs', '1970', null),
+('978-3-16-148410-1','32567', 'Edgar', 'Codd', '150111222', 'Normalisation, how to make a database geek fit in.', '1973', null),
+('978-3-16-148410-2','76543', 'Vinton', 'Cerf', '150222333', 'TCP/IP, the protocol for the masses', '1983', null),
+('978-3-16-148410-3','12345', 'Alan', 'Turing', '150333444', 'The Man, the Bombe, and the Enigma.', '1940', null);
 
-END
+END;

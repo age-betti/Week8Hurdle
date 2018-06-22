@@ -1,7 +1,7 @@
 ﻿CREATE TABLE [dbo].[Author]
 (
-	[authorId] NCHAR(10) NOT NULL PRIMARY KEY, 
-    [autFName] NVARCHAR(25) NOT NULL, 
-    [autLname] NVARCHAR(25) NOT NULL, 
-    [autTFNum] NCHAR(9) NOT NULL
+	[authorId] NVARCHAR(50) NOT NULL PRIMARY KEY, 
+    [autFName] NVARCHAR(50) NOT NULL, 
+    [autLname] NVARCHAR(50) NOT NULL, 
+    [autTFNum] NVARCHAR(50) NOT NULL
 )

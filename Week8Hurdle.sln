@@ -5,6 +5,8 @@ VisualStudioVersion = 15.0.27428.2037
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{00D1A9C2-B5F0-4AF3-8072-F6C62B433612}") = "Week8Hurdle", "Week8Hurdle\Week8Hurdle.sqlproj", "{3924C28F-B0EF-45CF-B6F3-B8B33B7F5061}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Week8HurdleWeb", "Week8HurdleWeb\Week8HurdleWeb.csproj", "{2AA9CE13-70CF-4B07-ACCF-8CCE3DC7F765}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -17,6 +19,10 @@ Global
 		{3924C28F-B0EF-45CF-B6F3-B8B33B7F5061}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{3924C28F-B0EF-45CF-B6F3-B8B33B7F5061}.Release|Any CPU.Build.0 = Release|Any CPU
 		{3924C28F-B0EF-45CF-B6F3-B8B33B7F5061}.Release|Any CPU.Deploy.0 = Release|Any CPU
+		{2AA9CE13-70CF-4B07-ACCF-8CCE3DC7F765}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2AA9CE13-70CF-4B07-ACCF-8CCE3DC7F765}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2AA9CE13-70CF-4B07-ACCF-8CCE3DC7F765}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2AA9CE13-70CF-4B07-ACCF-8CCE3DC7F765}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
